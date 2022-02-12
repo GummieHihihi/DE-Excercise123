@@ -1,0 +1,12 @@
+package excercise2;
+
+public class Main {
+    public static void main(String[] args) {
+        Circle circle = new Circle(3);
+        Square s = new Square(3);
+        Rectangle rec = new Rectangle(5, 3);
+
+        System.out.println(circle);
+        System.out.println(s);
+    }
+}
