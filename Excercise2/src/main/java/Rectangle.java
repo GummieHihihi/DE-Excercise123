@@ -1,5 +1,3 @@
-package excercise2;
-
 public class Rectangle extends Shape{
     private int longside;
     private int shortside;

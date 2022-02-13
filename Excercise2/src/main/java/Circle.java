@@ -1,5 +1,3 @@
-package excercise2;
-
 class Circle extends Shape{
     private int radius;
     private final float pi = (float) 3.14;

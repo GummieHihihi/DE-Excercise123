@@ -1,5 +1,3 @@
-package excercise2;
-
 public class Square extends Shape{
     private int side;
 

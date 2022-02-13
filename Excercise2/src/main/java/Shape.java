@@ -1,5 +1,3 @@
-package excercise2;
-
 public abstract class Shape {
     protected int perimeter;
     protected int area;
