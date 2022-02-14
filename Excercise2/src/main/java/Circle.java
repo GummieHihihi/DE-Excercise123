@@ -1,16 +1,21 @@
-class Circle extends Shape{
-    private int radius;
+/**
+ * this class extend the Shape object and has shape characteristic like area and perimeter
+ * @radius : The radius side of the Circle
+ */
+class Circle extends Shape implements ShapeCharacteristic {
+    private float radius;
     private final float pi = (float) 3.14;
-    public Circle(int radius){
+
+    public Circle(float radius){
         this.radius = radius;
     }
 
-    public int getArea(){
-        this.perimeter = (int) (2 * pi * radius);
+    public float getArea(){
+        this.perimeter = (float) (2 * pi * radius);
         return this.perimeter;
     }
-    public int getPerimeter(){
-        this.area = (int) (pi * radius * radius);
+    public float getPerimeter(){
+        this.area = (float) (pi * radius * radius);
         return this.area;
     }
 

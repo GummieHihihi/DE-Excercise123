@@ -1,16 +1,20 @@
-public class Square extends Shape{
-    private int side;
+/**
+ * this class extend shape, it's the square
+ * @side: the side  the square
+ */
+public class Square extends Shape implements ShapeCharacteristic {
+    private float side;
 
-    public Square(int side){
+    public Square(float side){
         super();
         this.side = side;
     }
 
-    public int getArea(){
+    public float getArea(){
         return side*side;
     }
 
-    public int getPerimeter(){
+    public float getPerimeter(){
         return perimeter = side*4;
     }
 

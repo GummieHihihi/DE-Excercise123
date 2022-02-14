@@ -1,16 +1,22 @@
-public class Rectangle extends Shape{
-    private int longside;
-    private int shortside;
-    public Rectangle(int longside, int shortside){
-        super();
+/**
+ * This class is the rectangle, it inherit the Shape class
+ * @longside : the long side of the rectangle
+ * @shortside: the short side of the rectangle
+ */
+
+public class Rectangle extends Shape implements ShapeCharacteristic {
+    private float longside;
+    private float shortside;
+
+    public Rectangle(float longside, float shortside){
         this.longside = longside;
         this.shortside = shortside;
     }
-    public int getPerimeter(){
+    public float getPerimeter(){
         return perimeter = (longside + shortside) * 2;
     }
 
-    public int getArea(){
+    public float getArea(){
         return area = longside * shortside;
     }
 

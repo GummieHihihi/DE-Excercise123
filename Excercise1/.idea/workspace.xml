@@ -4,16 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9db81a7-0dd5-47fb-896c-d19a2a4765ee" name="Changes" comment="" />
+    <list default="true" id="f9db81a7-0dd5-47fb-896c-d19a2a4765ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Excercise2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/ShapeCharacteristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercise2/src/test/java/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercise2/src/test/java/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise2/src/main/java/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise2/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise2/src/main/java/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise2/src/main/java/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise2/src/main/java/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Square.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="255cbrN6Ah8zZpXLKITPk6L0Eqx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,15 +42,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/FW__C4E_-_GCP_-_Java_Exercises_/JavaEx/Ex1-2/Java_Ex1-ex2_Tung_PhamDuc" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Excercise1" />
+      <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -43,10 +64,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeTest.getFinalSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="METHOD_NAME" value="getFinalSalary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.EmployeeTest.getFinalSalary" />
+        <item itemvalue="JUnit.EmployeeTest" />
       </list>
     </recent_temporary>
   </component>

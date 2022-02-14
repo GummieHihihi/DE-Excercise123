@@ -7,21 +7,30 @@ public class Employee {
     private int hourWorkingPerDay;
     private int finalSalary;
     private int baseSalary;
+    private String name;
 
+    public Employee(String name, int hoursInDay, int salaryPerDay){
+        this.name = name;
+        hourlySalary = salaryPerDay/hoursInDay;
+        hourWorkingPerDay = hoursInDay;
+    }
+
+    private String getName(){
+        return name;
+    }
 
     public int getFinalSalary() {
         return finalSalary;
     }
 
     /**
-     * this function set the information of the employee about his salary, how much money he/she earn an hour and how
-     * many hour he/she works per day
-     * @param hourlySalarys : money employee earn each hour working
-     * @param hoursInDay : the hour that employee work in a day
+     *this function set the information of the employee about his salary, how much money he/she earn an hour and how
+     *many hour he/she works per day
+     * @return the information about the employee
      */
-    public void getInfo(int hourlySalarys, int hoursInDay){
-        hourlySalary = hourlySalarys;
-        hourWorkingPerDay = hoursInDay;
+    public String getInfo(){
+        return "Employee: " + name + " works " + hourWorkingPerDay + " per day with the salary of " + hourlySalary * hourWorkingPerDay
+                + " perday" + ", finalSalary= " + finalSalary;
     }
 
     /**
@@ -66,16 +75,5 @@ public class Employee {
         if(hourWorkingPerDay>6){
             dailySalary += 5;
         }
-    }
-
-    /**
-     *
-     * @return the string which show the employee final salary
-     */
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "finalSalary=" + finalSalary +
-                '}';
     }
 }
