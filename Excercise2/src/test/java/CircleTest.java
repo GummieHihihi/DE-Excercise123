@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class CircleTest {
     private Circle circle;
     @Before
-    public void setUp() throws Exception {
+    public void setUp(){
         circle = new Circle(4);
     }
 
