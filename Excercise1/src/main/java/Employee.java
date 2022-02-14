@@ -2,14 +2,16 @@
  * this class is for the employee, it return the final salary, it compute the final salary of the employee
  */
 public class Employee {
-    private int hourlySalary;
-    private int dailySalary;
-    private int hourWorkingPerDay;
-    private int finalSalary;
-    private int baseSalary;
+    private float hourlySalary;
+    private float dailySalary;
+    private float hourWorkingPerDay;
+    private float finalSalary;
+    private float baseSalary;
     private String name;
 
-    public Employee(String name, int hoursInDay, int salaryPerDay){
+    private final int workDayPerMonth = 20;
+
+    public Employee(String name, float hoursInDay, int salaryPerDay){
         this.name = name;
         hourlySalary = salaryPerDay/hoursInDay;
         hourWorkingPerDay = hoursInDay;
@@ -19,7 +21,7 @@ public class Employee {
         return name;
     }
 
-    public int getFinalSalary() {
+    public float getFinalSalary() {
         return finalSalary;
     }
 
@@ -44,7 +46,7 @@ public class Employee {
      * this function compute base monthly salary of an employee with 20 days of work
      */
     private void computeBaseSalary(){
-        baseSalary = dailySalary * 20;
+        baseSalary = dailySalary * workDayPerMonth;
     }
 
     /**
