@@ -4,72 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3509ae81-8230-4299-8718-39b777514a1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Excercise1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise2/src/excercise2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise2/src/excercise2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise2/src/excercise2/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise2/src/excercise2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise2/src/excercise2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise2/src/main/java/Square.java" afterDir="false" />
-    </list>
+    <list default="true" id="f9db81a7-0dd5-47fb-896c-d19a2a4765ee" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="250TY2D0hkG6rnoQAhdoElhk8jb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="255cbrN6Ah8zZpXLKITPk6L0Eqx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Excercise2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RunManager" selected="JUnit.EmployeeTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Excercise1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Excercise1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3509ae81-8230-4299-8718-39b777514a1d" name="Changes" comment="" />
-      <created>1644663050804</created>
+      <changelist id="f9db81a7-0dd5-47fb-896c-d19a2a4765ee" name="Changes" comment="" />
+      <created>1644820463156</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1644663050804</updated>
+      <updated>1644820463156</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
