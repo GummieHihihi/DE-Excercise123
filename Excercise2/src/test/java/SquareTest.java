@@ -19,7 +19,7 @@ public class SquareTest {
 
     @Test
     public void getPerimeter() {
-        assertEquals(square.getPerimeter(), 20, 0);
+        assertEquals(square.getPerimeter(), 16, 0);
         System.out.println("test square perimeter successfully");
     }
 }
