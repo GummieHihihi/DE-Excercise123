@@ -42,6 +42,11 @@ public class FootballTeam implements duong.Team {
     }
 
     @Override
+    public String getSponsor() {
+        return this.sponsor;
+    }
+
+    @Override
     public String toString() {
         return "FootballTeam{" +
                 "teamName='" + teamName + '\'' +

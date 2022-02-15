@@ -13,7 +13,7 @@ public class Main {
         List<duong.Team> teamList = new ArrayList<>();
         FileUrl url = new FileUrl();
         teamList = helper.readFile(url.teamURL);
-
+        Helper.printHeader();
         helper.printOut(teamList);
 
         helper.updatePoint(url.resultURL, teamList);

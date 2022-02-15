@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86bfb1b0-e23d-4632-b7ad-a5bdff28789d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise1/src/test/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise1/src/test/java/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise1/target/classes/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise1/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise1/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Excercise1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SquareTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CircleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CircleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SquareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SquareTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="86bfb1b0-e23d-4632-b7ad-a5bdff28789d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +58,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Excercise3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />

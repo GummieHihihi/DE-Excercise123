@@ -69,6 +69,10 @@ public class Helper {
         }
     }
 
+    public static void printHeader(){
+        System.out.printf("%-25s|%10s|%20s", "team", "point", "sponsor" + "\n");
+
+    }
     public void printOut(List<Team> teams){
         class compareSort implements Comparator<Team>{
 
@@ -90,13 +94,13 @@ public class Helper {
 
         System.out.println("Basketbal Team: ");
         for (Team team:basketBallTeam) {
-            System.out.println(team.toString()+ "\n");
+            System.out.printf("%-25s|%10d|%20s", team.getTeamName(), team.getPoints(), team.getSponsor() + "\n");
         }
 
         System.out.println("+++++++++++++++++++");
         System.out.println("Football Team :" );
         for (Team team:footBallTeam) {
-            System.out.println(team.toString()+ "\n");
+            System.out.printf("%-25s|%10d|%20s", team.getTeamName(), team.getPoints(), team.getSponsor() + "\n");
         }
     }
 }

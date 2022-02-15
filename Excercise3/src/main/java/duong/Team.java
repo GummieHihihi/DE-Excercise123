@@ -5,4 +5,5 @@ public interface Team {
     String getTeamName();
     int getPoints();
     String getClubType();
+    String getSponsor();
 }

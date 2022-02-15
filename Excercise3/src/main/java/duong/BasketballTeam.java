@@ -5,6 +5,10 @@ public class BasketballTeam implements duong.Team {
     private int points;
     private String sponsor;
 
+    public String getSponsor(){
+        return " no sponsor";
+    }
+
     public BasketballTeam(String teamname, String points, String sponsor){
         this.teamname = teamname;
         this.points = Integer.parseInt(points);
