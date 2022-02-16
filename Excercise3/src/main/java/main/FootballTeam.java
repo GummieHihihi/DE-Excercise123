@@ -1,13 +1,17 @@
-package duong;
+/**
+ * this class is the football team class, it implements the team interface, it has characteristic
+ * applying rule of football
+ */
+package main;
 
-public class FootballTeam implements duong.Team {
+public class FootballTeam implements main.Team {
     String teamName;
     int points;
     String sponsor;
-    public FootballTeam(String teamName, String points, String s){
+    public FootballTeam(String teamName, String points, String sponsor){
         this.teamName = teamName;
         this.points = Integer.parseInt(points);
-        this.sponsor = s;
+        this.sponsor = sponsor;
     }
 
     public void setSponsor(String sponsor) {

@@ -3,7 +3,6 @@
 2. to run the project, you need : 
 - clone and open the project in your IntelliJ IDLE 
 - go to Terminal ->run the following command: 
-+ clean : mvn clean
-+ compile : mvn clean
-+ test : mvn test
-+ then go to main class -> right click -> run main
+- Run the folling command : 
++ clean install : mvn clean install
++ execute : mvn exec:java -D"exec.mainClass"="Main"

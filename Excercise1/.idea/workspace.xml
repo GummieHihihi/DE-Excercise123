@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9db81a7-0dd5-47fb-896c-d19a2a4765ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Excercise3/src/main/java/main/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercise3/src/test/java/helper/HelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excercise3/src/test/java/main/TeamFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise3/src/main/java/duong/BasketballTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise3/src/main/java/main/BasketballTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise3/src/main/java/duong/FootballTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise3/src/main/java/main/FootballTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise3/src/main/java/duong/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise3/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise3/src/main/java/duong/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise3/src/main/java/duong/TeamFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise3/src/main/java/main/TeamFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise3/src/main/java/helper/FileUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise3/src/main/java/helper/FileUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Excercise3/src/main/java/helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Excercise3/src/main/java/helper/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +66,19 @@
       <recent name="C:\Users\HP\Desktop\GitCode\DE-Excercise123\Excercise1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest.getFinalSalary">
+  <component name="RunManager" selected="JUnit.EmployeeTest (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmployeeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,8 +104,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmployeeTest.getFinalSalary" />
+        <item itemvalue="JUnit.EmployeeTest (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.EmployeeTest.getFinalSalary" />
         <item itemvalue="JUnit.EmployeeTest" />
       </list>
     </recent_temporary>

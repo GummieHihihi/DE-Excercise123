@@ -1,6 +1,9 @@
+/**
+ * this class contain all the main logical function of the program
+ */
 package helper;
 
-import duong.Team;
+import main.Team;
 import main.java.duong.TeamFactory;
 
 import java.io.*;
@@ -16,10 +19,15 @@ public class Helper {
     private TeamFactory teamFactory = new TeamFactory();
     public Helper(){}
 
+    /**
+     * this method read the file and return them as a list of <Team>
+     * @param filename
+     * @return : List<Team>
+     */
     public List<Team> readFile(String filename){
         String line = "";
 
-        List<duong.Team> listTeam = new ArrayList<>();
+        List<main.Team> listTeam = new ArrayList<>();
         try {
             BufferedReader br = new BufferedReader(new FileReader(filename));
             while ((line = br.readLine()) != null){
@@ -36,6 +44,11 @@ public class Helper {
         return listTeam;
     }
 
+    /**
+     * this method update the point of each team base on the result csv file
+     * @param fileName -> the result file name
+     * @param teams -> List<Team>
+     */
     public void updatePoint(String fileName, List<Team> teams){
 
         String line = "";
@@ -69,10 +82,18 @@ public class Helper {
         }
     }
 
+    /**
+     * this method print the header of result table
+     */
     public static void printHeader(){
         System.out.printf("%-25s|%10s|%20s", "team", "point", "sponsor" + "\n");
 
     }
+
+    /**
+     * this method print out the result table content
+     * @param teams List<TEAM>
+     */
     public void printOut(List<Team> teams){
         class compareSort implements Comparator<Team>{
 
